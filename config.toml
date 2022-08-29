@@ -1,4 +1,17 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "cactus"
+title = "Computer Vision & Computational Photography Portfolio"
+theme = "paper"
+buildFuture = true
+
+[params]
+    github = '5kylar'       # github.com/YOUR_GITHUB_ID
+
+    # show home page profile
+    avatar = '/skylar-photo.png'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+    name = 'Skylar Sarabia'
+    bio = 'YOUR_BIO'
+
+    # misc
+    disableHLJS = false              # disable requesting highlight.js
+    monoDarkIcon = true    
